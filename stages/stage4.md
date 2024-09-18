@@ -26,11 +26,11 @@ You should have already completed the [previous stage](./stage3.md).
 2. At the top of the file, inside of the ``head`` element, add a ``<link>`` element.
    ```html
    <head>
-       <link rel="stylesheet" href="index.css">
+       <link rel="stylesheet" href="styles.css">
    </head>
    ```
    - The ``rel`` attribute tells the element what kind of relation to the HTML document the link is.
-   - The ``href`` attribute is the location of this link. In our case, it is the relative path to the ``index.css`` file.
+   - The ``href`` attribute is the location of this link. In our case, it is the relative path to the ``styles.css`` file.
 3. If you save the file and open it in a web browser again, you will notice that the background of the page is no longer white.
 
 ## CSS Specificity
@@ -121,7 +121,7 @@ Your ``index.html`` file should look like the following:
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <img src="https://www.vangoghgallery.com/img/starry_night_full.jpg" alt="The Starry Night by Vincent Van Gogh." width="256"/>
@@ -139,7 +139,7 @@ Your ``index.html`` file should look like the following:
 </html>
 ```
 
-Your ``index.css`` file should look like the following:
+Your ``styles.css`` file should look like the following:
 ```css
 body {
     background-color: #242424;
